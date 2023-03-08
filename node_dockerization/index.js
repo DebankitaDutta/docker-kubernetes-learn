@@ -10,5 +10,5 @@ app.get("/ping",(req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log(`APP listens at port ${port}`)
+    console.log(`APP listens: ${port}`)
 })
